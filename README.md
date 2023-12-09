@@ -65,6 +65,29 @@ There are two scripts available for this setup as well
 
 &nbsp;
 
+# Troubleshooting YouTube Video Quality in Termux XFCE
+
+If you're using Firefox in Termux XFCE and notice limited video quality options on YouTube (like only 180p, 240p, and 360p), you can follow these steps to fix it.
+
+## Fixing Video Quality Issue
+
+1. Open Firefox and type `about:config` in the address bar.
+
+2. You'll see a warning—don't worry, it's okay. Tap "Accept the Risk and Continue."
+
+3. In the search bar, type `general.useragent.override`.
+
+4. Select "String" and click on "+" icon
+
+5. Enter the following exactly as it is: ``` Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0 ```
+
+6. Tap "OK" or "Save."
+
+7. Restart Firefox.
+
+That's it! Now, check YouTube, and you should see more video quality options.
+
+
 # Process completed (signal 9) - press Enter
 
 install LADB from playstore or from here https://github.com/hyperio546/ladb-builds/releases
